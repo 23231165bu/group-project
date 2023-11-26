@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <style>
+        h1,h2,h3,h4,h5,h6{
+            font-family: "Lucida console", Arial, sans-serif;
+            font-weight: 400;margin:10px;
+            font-weight: bold;
+        }
+        .top{
+    top:0
+}
+.black,.hover-black:hover{
+    color:#fff!important;
+    background-color:#000!important
+}
+.padding-large{
+    padding:12px 24px!important
+}
+.button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+.button:hover{
+    color:#000!important;
+    background-color:hsl(0, 0%, 80%)!important
+}
+
+p[align]{
+    color: #33475b;
+    padding: 8px;
+    margin: 25px;
+}
+
+h1{
+    color: white;
+    background-color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+    text-indent: 1%;
+}
+h2{
+    color: white;
+    background-color: #33475b;
+    font-size: 25px;
+    border-radius: 10px;
+    text-indent: 1%;
+}
+h4{
+    padding: 8px;
+    margin: 25px;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+    </style>
+
+    <head>
+        <title>Bayesian Network</title>
+        <meta name="description" content="Assignment 2">
+        <meta name="author" content="23229543 Yip Tsz Ying and 23231165 Wan Cheuk Laam Clarice">
+    </head>
+    
+    <body>
+        <div class="top">
+            <div class="black">
+              <a href="#" class="button padding-large">Home</a>
+              <a href="#" class="button padding-large">Application - ChatGPT</a>
+              <a href="#" class="button padding-large">Application - Bayesian Network</a>
+              <a href="#" class="button padding-large">Questions and Misunderstandings</a>
+            </div>
+          </div>
+
+        <h1 align="center">Bayesian Network in AI</h1>
+        
+        <h2>1. Introduction</h2>
+                <p>Bayesian network is a graphical representation of probabilistic relationships between variables. It provides a way to model and reason about uncertainty and causality based on Bayesian probability theory. It consists of two main components called nodes and edges. Nodes represent random variables or events in the domain, while edges represent the probabilistic dependencies between these variables. Bayesian network is widely used in many aspects in the society nowadays. With Bayes' Theorem, Bayesian network can be used to model decision-making problems in AI by calculating the probability of different outcomes based on available evidence. </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/97KBdmSQEJ0?si=06yfF0unCbDkMvsn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h2>2. Advantages of using Bayesian Network in AI</h2>
+
+            <h3>2.1. Predictive Analytics: </h3>
+                <p>Bayesian Networks in AI facilitate predictive analytics by capturing the relationships between variables. It can analyze the historical data, identify patterns, dependencies, and correlations between variables, to make predictions based on observed evidence. The trained Bayesian Network, it can be used to make predictions about future unobserved events or outcomes. </p>
+
+            <h3>2.2. Causal Inference: </h3>
+                <p>Applying Bayesian Networks in AI enables causal reasoning by explicitly representing the causal relationships between variables. It allows counterfactual reasoning, which involves assessing the hypothetical outcomes if certain variables or interventions were different. By manipulating the values of variables in the network, researchers can simulate different scenarios and evaluate the potential causal effects on outcomes. </p>
+
+            <h3>2.3. Risk Assessment and Management: </h3>
+                <p>Using Bayesian Networks in AI facilitates risk assessment by integrating prior knowledge and observed data as it can learn from past events. This enables a more accurate evaluation of the likelihood and impact of specific risks. By combining subjective judgments and objective data, Bayesian networks provide a structured and systematic approach to risk assessment, enhancing the decision-making process. </p>
+
+
+        <h2>3. Social Application</h2>
+
+            <h3>3.1. Public Health: </h3>
+                
+                <h4>Monitoring and Tracking Diseases</h4>
+                    <p>Applying Bayesian Networks in AI can be used to analyze disease surveillance data, such as reported cases and symptoms, along with other relevant variables like demographic information and environmental factors. During Covid-19 Bayesian Networks been used to understanding the dynamics of COVID-19 and informing public health strategies by considering factors such as contact tracing, testing capacity, population demographics, and individual behavior. As a result, the tree-augmented naive (TAN) model which is a type of Bayesian network are able to find out that the factors that had the biggest impact on the risk of transmission were how close people lived to important health facilities, churches, shopping centers, and supermarkets. (Dlamini et al., n.d.) </p>
+
+                <h4>Public Health Policy Evaluation</h4>
+                    <p>Using Bayesian Networks with AI could analysis the effectiveness of different public health measure and policies. Bayesian networks can be used to develop predictive models that according to different specific health factors For example, if the government want to design a policies on reducing the number of people with diabetes. The Bayesian network could consider factors variables like age, gender, body mass index (BMI), physical activity, family history of diabetes, and blood glucose levels. By analyzing the relationships between these factors and their conditional probabilities, the network can calculate the probability of an individual developing diabetes. This information helps guide public health strategies by identifying high-risk groups. </p>
+
+                <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41324-021-00421-6/MediaObjects/41324_2021_421_Fig3_HTML.png" width="70%" height="70%">
+
+            <h3>3.2. Economic Development: </h3>
+                <p>Bayesian Networks in AI can be applied in various ways to support the social good within the economy. Bayesian Networks are a helpful tool for estimating probabilities and figuring out how different things are related to each other. They are especially useful for predicting outcomes in economics. By incorporating historical data and relevant variables, Bayesian Networks can estimate the probability of outcomes such as employment, income growth, poverty reduction, or social mobility. Therefore, policymakers, researchers, and organizations would able to Find out what currently needs the most attention and improvement in society, and propose solutions. Also, Bayesian network could also Predict and evaluate the impact and consequences of the policy's implementation. </p>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfw-isjWEl5ig-73NO5cZwo3SzmXPB4Vjs57ng6sd_iwIamdTlrZe_RyIGMX_5BOwr7E&usqp=CAU" width="50%" height="50%">
+
+            <h3>3.3. Public Opinion Analysis: </h3>
+                <p>Using Bayesian Networks in AI can identify key factors or influencers that have a significant impact on public opinion. By analyzing the strength and direction of the causal connections within the network, researchers can identify variables that play a central role in shaping public opinion. This information helps in understanding the most influential factors and designing targeted interventions or communication strategies. It contributes to a deeper understanding of public opinion dynamics and provide valuable insights. </p>
+
+                <footer>
+                    <br>
+                    <p>
+                      COMM2036 Group Project<br>
+                      Topic : Artificial Intelligence for Social Good
+                    </p><br>
+                  </footer>
